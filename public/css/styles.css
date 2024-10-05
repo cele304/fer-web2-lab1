@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #4a90e2;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ticketIdInput {
+    margin-left: 120px;
+}
+
+form input[type="text"], form button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 2px solid #4a90e2;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #357ABD;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+p strong {
+    color: #333;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
